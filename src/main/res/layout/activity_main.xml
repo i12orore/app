@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.josenrique.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="381dp"
+            android:layout_height="214dp"
+            tools:layout_editor_absoluteY="3dp"
+            tools:layout_editor_absoluteX="4dp">
+            <Button
+                android:id="@+id/listaDeEvolvers"
+                android:layout_width="wrap_content"
+                android:layout_height="69dp"
+                android:text="Acceder a los evolvers"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="6dp"/>
+
+            <ImageView
+                android:id="@+id/dianeKruger"
+                android:layout_width="wrap_content"
+                android:layout_height="146dp"
+                app:srcCompat="@drawable/dianekruger"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="75dp" />
+        </android.support.v7.widget.LinearLayoutCompat>
+</android.support.constraint.ConstraintLayout>
